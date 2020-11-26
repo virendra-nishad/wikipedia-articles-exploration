@@ -1,3 +1,13 @@
+# Overview
+• Wikipedia article graph set is huge a huge graph
+• But most of them are connected to a single component
+• Almost all articles can be reached from any articles due to strong connectivity
+• There are few articles which are connected to main component like spike on a huge sphere
+• There are very negligible article set in comparison to whole article set which are not reachable from main component
+• Despite the diameter of the graph is big, reachability of each article is good, most of them are at most 10 edge away from each other
+• To reduce the path between any pair of article large number of connectivity is there in term of edges, hence article
+graph is very dense graph in term of number of edge
+
 # python code descriptions
 
 ## run.sh
@@ -52,3 +62,8 @@
 * Same are repeated for every finished path.
 * For every source-destination category pair, the percentage of finished and unfinished paths were explored.
 * output : category-pairs.csv
+
+
+
+Thanks and regards!
+Virendra Nishad
